@@ -1,92 +1,34 @@
-/* Reset tampilan default browser */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOFOLIO SAYA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>PORTOFOLIO SAYA</h1>
+                <p>Selamat datang di halaman portofolio saya!</p>
+            </div>
+        </div>
+    </header>
 
-/* Gaya Umum */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-}
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2rem;
-}
-
-nav {
-    background-color: #444;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-section {
-    padding: 2rem 0;
-    text-align: center;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
-    justify-items: center;
-}
-
-.gallery img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #444;
-    color: #fff;
-}
-
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang pelajar yang berfokus pada perangkat lunak.</p>
+        </div>
