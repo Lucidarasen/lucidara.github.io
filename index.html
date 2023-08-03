@@ -4,37 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Saya</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .project p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Portofolio Saya</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">Tentang Saya</a></li>
-            <li><a href="#projects">Proyek</a></li>
-            <li><a href="#contact">Kontak</a></li>
-        </ul>
-    </nav>
-    <section id="about">
+    <section>
         <h2>Tentang Saya</h2>
         <p>Selamat datang di halaman portofolio saya. Saya adalah seorang web developer yang berpengalaman dalam pengembangan web menggunakan HTML, CSS, dan JavaScript.</p>
     </section>
-    <section id="projects">
+    <section>
         <h2>Proyek Terbaru</h2>
         <div class="project">
             <h3>Website Perusahaan ABC</h3>
             <p>Proyek ini adalah pengembangan website untuk perusahaan ABC. Saya bertanggung jawab dalam merancang tata letak dan mengimplementasikan interaksi pada halaman.</p>
-            <a href="#">Lihat Proyek</a>
         </div>
         <div class="project">
             <h3>Aplikasi To-Do List</h3>
             <p>Aplikasi To-Do List yang saya buat menggunakan React. Aplikasi ini memungkinkan pengguna untuk mencatat tugas-tugas harian dan menandai ketika selesai.</p>
-            <a href="#">Lihat Proyek</a>
         </div>
     </section>
-    <section id="contact">
+    <section>
         <h2>Kontak</h2>
         <p>Jika Anda tertarik untuk bekerja sama atau ingin bertanya lebih lanjut, silakan hubungi saya melalui email di: <a href="mailto:nama@example.com">nama@example.com</a></p>
     </section>
